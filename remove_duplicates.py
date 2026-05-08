@@ -14,4 +14,5 @@ os.makedirs('data', exist_ok=True)
 # Save cleaned dataset
 cleaned_df.to_csv('data/processed_dataset.csv', index=False)
 
+# Successful duplicate removal notification
 print("Duplicate removal completed successfully.")
